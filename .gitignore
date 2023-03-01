@@ -1,5 +1,6 @@
-/Crafty_Girls
-/__init__.py
-/__pycache__
-/__pycache__\views.cpython-311.pyc
-/__pycache__\__init__.cpython-311.pyc
+/website/static/Crafy_Girls
+/website/__pycache__
+/node_modules
+/.hintrc
+/package-lock.json
+/package.json
