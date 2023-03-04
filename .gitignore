@@ -1,2 +1,6 @@
-__pycache__
-__init__.py
+/website/static/Crafty_Girls
+/website/__pycache__
+/node_modules
+/.hintrc
+/package-lock.json
+/package.json

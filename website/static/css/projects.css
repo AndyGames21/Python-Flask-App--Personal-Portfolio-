@@ -1,0 +1,47 @@
+/* Base Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-size: 58%;
+    font-size: 60%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+/* Fonts */
+@font-face {
+    font-family: 'Crafty-Girls'; /*a name to be used later*/
+    src: url('../Crafty_Girls/CraftyGirls-Regular.ttf'); /*URL to font*/
+}
+/* Header ANd NavBar */
+ul{
+    list-style: none;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(139, 134, 134);
+}
+
+.nav li a{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #a3a3a3;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Crafty-Girls;
+}
+.nav li a:hover{
+    color: rgb(45, 45, 46);
+    font-size: 2.1rem;
+}
