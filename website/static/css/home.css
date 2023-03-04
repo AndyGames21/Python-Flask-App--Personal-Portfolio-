@@ -21,7 +21,6 @@ html{
 ul{
     list-style: none;
     display: flex;
-    align-items: center;
 }
 .nav{
     display: flex;
@@ -30,7 +29,7 @@ ul{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f0eff4;
+    background-color: #fff;
 }
 
 .nav li a{
@@ -49,14 +48,21 @@ ul{
 .bars{
     text-decoration: none;
     background-color: none;
-    font-size: 2rem; 
+    font-size: 3rem; 
+}
+.mobile-bars{
+    text-decoration: none;
+    background-color: none;
+    font-size: 3rem;
+    color: #161616;
 }
 /* Dark And Light Mode */
 .theme{
     text-decoration: none;
     background-color: none;
     color: #2b2b2b;
-    font-size: 1.9rem;
+    font-size: 2rem;
+    align-self: center;
 }
 .theme:hover{
     color:#a3a3a3;
@@ -86,9 +92,19 @@ ul{
     background-color: none;
     color: #fff;
     font-size: 2rem;
+    align-self: center;
 }
 .theme-dark .bars{
     color: #fff;
+}
+.theme-dark .nav{
+    background-color: #161616;
+}
+.theme-dark .mobile-bars{
+    color: #fff;
+}
+.theme-dark #skills h1{
+    color: #a3a3a3;
 }
 /* Details Section */
 #home{
@@ -112,5 +128,35 @@ ul{
     font-style: italic;
     color: #161616;
 }
+/* Skills Section */
+#skills h1{
+    font-size: 4.5em;
+    color: #161616;
+    font-style: italic;
+    font-family: lora;
+    text-align: center;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:667px){
+    #home h1{
+        font-size: 5rem;
+    }
+    #home p{
+        font-size: 2rem;
+    }
+}
