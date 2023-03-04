@@ -60,10 +60,9 @@ ul{
 }
 .theme:hover{
     color:#a3a3a3;
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg)
+}
+.theme-light:hover{
+    color: #a3a3a3;
 }
 .theme-dark{
     color: white;
@@ -77,14 +76,6 @@ ul{
 }
 .theme-light{
     display: none;
-}
-.theme-light:hover{
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    color: #a3a3a3;
-    
 }
 .theme-dark .theme{
     display: none;
