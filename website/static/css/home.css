@@ -210,4 +210,12 @@ ul{
     #home p{
         font-size: 2rem;
     }
+    #skills .mobile-skills{
+        display: grid;
+        margin-top: 2rem;
+        grid-template-columns: auto auto;
+    }
+    #skills .skills{
+        display: none;
+    }
 }
