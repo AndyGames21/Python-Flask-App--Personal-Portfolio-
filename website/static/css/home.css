@@ -190,6 +190,9 @@ ul{
 .mobile-skills{
     display: none;
 }
+#skills .skills{
+    display: block;
+}
 
 
 
