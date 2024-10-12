@@ -1,6 +1,8 @@
 /website/static/Crafty_Girls
 /website/__pycache__
+/website/__init__.py
 /node_modules
+/.venv
 /.hintrc
 /package-lock.json
 /package.json
